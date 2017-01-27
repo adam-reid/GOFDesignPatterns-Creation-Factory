@@ -6,6 +6,6 @@ package com.training;
 public class SpeedBoat implements Boat {
     @Override
     public void makeBoatSound() {
-
+        System.out.println("wwwaaahhHHHH SO FAST!");
     }
 }
