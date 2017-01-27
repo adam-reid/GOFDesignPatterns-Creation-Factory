@@ -13,7 +13,7 @@ public class Main {
 
         Boat myBoat2 = boatFactory.makeBoat(SPEEDBOAT);
 
-        System.out.println(myBoat.toString());
-        System.out.println(myBoat2.toString());
+        myBoat.makeBoatSound();
+        myBoat2.makeBoatSound();
     }
 }
