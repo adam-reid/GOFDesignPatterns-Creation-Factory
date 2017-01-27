@@ -6,6 +6,6 @@ package com.training;
 public class TugBoat implements Boat {
     @Override
     public void makeBoatSound() {
-        System.out.println();
+        System.out.println("Chugga-chugga-chugga");
     }
 }
