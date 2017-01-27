@@ -6,6 +6,6 @@ package com.training;
 public class PartyBoat implements Boat {
     @Override
     public void makeBoatSound() {
-
+        System.out.println("Dance dance dance!");
     }
 }
